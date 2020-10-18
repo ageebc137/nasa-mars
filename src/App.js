@@ -1,14 +1,12 @@
+import { hot } from 'react-hot-loader/root';
 import React from 'react';
-import logo from './logo.svg';
-import AppRouter from './router/AppRouter';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-        <AppRouter />
-    </div>
-  );
+function App(props) {
+    return (
+        <>
+            <h1>Hello</h1>
+        </>
+    )
 }
 
-export default App;
+export default hot(App);
