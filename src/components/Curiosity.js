@@ -1,10 +1,13 @@
 import React from 'react';
+import CameraButtons from './CameraButtons';
+
+
 
 function Curiosity() {
     return (
         <>
             <h1>Curiosity</h1>
-            <p>Picture Here</p>
+            <CameraButtons />
         </>
     )
 }
