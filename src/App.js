@@ -1,11 +1,15 @@
 import { hot } from 'react-hot-loader/root';
-import React from 'react';
+import React, { useState, useEffect} from 'react';
 import AppRouter from './router/AppRouter';
 
+
 function App(props) {
+
+
+
     return (
         <>
-            <AppRouter />
+            <AppRouter/>
         </>
     )
 }

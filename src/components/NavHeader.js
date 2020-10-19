@@ -2,11 +2,15 @@ import React from 'react';
 import { Navbar, Form, FormControl, Button, Nav, Image } from 'react-bootstrap';
 import {Link} from 'react-router-dom';
 
+const styles={
+}
+
 
 function NavHeader() {
+
     return (
         <Navbar bg="dark" variant="dark">
-                <Navbar.Brand href="#home">NASA Mars</Navbar.Brand>
+                <Navbar.Brand href="#home"><img style={{height:"10vh", width: "5vw"}} className="logo" src="https://www.gazettenet.com/getattachment/c2db69d5-0338-444c-a4a7-2b58027e66cd/b6-nasa-logo-biz-072219-ph1" />NASA Mars</Navbar.Brand>
                 <Nav className="mr-auto">
                 <Nav.Link><Link to="/curiosity">Curiosity</Link></Nav.Link>
                 <Nav.Link><Link to="/opportunity">Opportunity</Link></Nav.Link>

@@ -4,6 +4,7 @@ import NavHeader from '../components/NavHeader';
 import Curiosity from '../components/Curiosity';
 import Opportunity from '../components/Opportunity';
 import Spirit from '../components/Spirit';
+import Home from '../components/Home';
 
 
 function AppRouter() {
@@ -11,6 +12,7 @@ function AppRouter() {
         <BrowserRouter>
             <NavHeader />
             <Switch >
+                <Route path="/" exact component={Home} />
                 <Route path="/curiosity"  component={Curiosity} />
                 <Route path="/opportunity" component={Opportunity} />
                 <Route path="/spirit" component={Spirit} />
