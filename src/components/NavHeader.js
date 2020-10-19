@@ -2,8 +2,7 @@ import React from 'react';
 import { Navbar, Form, FormControl, Button, Nav, Image } from 'react-bootstrap';
 import {Link} from 'react-router-dom';
 
-const styles={
-}
+
 
 
 function NavHeader() {
