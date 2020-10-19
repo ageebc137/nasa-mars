@@ -13,7 +13,7 @@ function Opportunity() {
         setIsLoading(true);
         const resp = await axios.get(`https://api.nasa.gov/mars-photos/api/v1/rovers/opportunity/photos?earth_date=2020-10-17&api_key=JEpXIu5OCt18svGOcI1BxSZjtq1IDKSwj221JWZ4`);
         console.log(resp);
-        setImage(resp.data.photos.slice(0,10));
+        setImages(resp.data.photos.slice(0,10));
         setIsLoading(false);
     }
     useEffect(() => {
