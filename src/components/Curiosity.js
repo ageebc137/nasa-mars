@@ -16,6 +16,7 @@ function Curiosity() {
     useEffect(() => {
         getImage();
         console.log(images);
+        localStorage.setItem("curiosityImages", JSON.stringify(images));
     }, [])
  
     return (

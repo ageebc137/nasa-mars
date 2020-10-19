@@ -16,6 +16,7 @@ function Opportunity() {
     useEffect(() => {
         getImage();
         console.log(images);
+        localStorage.setItem("opportunityImages", JSON.stringify(images));
     }, [])
  
     return (
