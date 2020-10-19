@@ -6,7 +6,6 @@ function Curiosity() {
 
     const [camera, setCamera] = useState("FHAZ");
     const [images, setImage ] = useState([]);
-    const [rover, setRover] = useState("curiosity");
     const [isLoading, setIsLoading] = useState(false);
 
     const getImage = async function() {

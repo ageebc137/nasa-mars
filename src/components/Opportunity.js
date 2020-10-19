@@ -6,7 +6,7 @@ import axios from 'axios';
 function Opportunity() {
     const [camera, setCamera] = useState("FHAZ");
     const [images, setImage ] = useState([]);
-    const [rover, setRover] = useState("opportunity");
+
     const [isLoading, setIsLoading] = useState(false);
 
     const getImage = async function() {
